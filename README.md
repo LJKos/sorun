@@ -37,7 +37,7 @@ int start(int argc, char *argv)
 ```
 
 ### Example program - run.so
-The example program runs inside to sorun environment with the following output:
+The example program runs inside the sorun environment with the following output:
 ```
 [sorun]
 > run run.so
