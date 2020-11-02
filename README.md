@@ -31,6 +31,10 @@ in the sorun user interface.
 
 ## Programs
 The run command opens the program given as an argument and looks for a function named start. If start function is found, the program is run.
+Similar to the main function in C the start function returns integer and has two arguments (although arguments cannot be used in the current version):
+```
+int start(int argc, char *argv)
+```
 
 ### Example program - run.so
 The example program runs inside to sorun environment with the following output:
@@ -39,8 +43,8 @@ The example program runs inside to sorun environment with the following output:
 > run run.so
 [executing]
 
-Hello sorun!
-test fun
+Hello world!
+test function
 
 [finished]
 > quit
