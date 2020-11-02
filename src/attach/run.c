@@ -1,13 +1,11 @@
 #include <stdio.h>
 
 void test_fun() {
-    printf("test fun\n");
+    printf("test function\n");
 }
 
 int start(int argc, char *argv[]) {
-    printf("Hello sorun!\n");
-    //printf("argc: %d\n", argc);
-    //printf("argv[0]: %s\n", argv[0]);
+    printf("Hello world!\n");
     
     test_fun();
     
